@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a class="navbar-logo" href="#" id="navbar-logo">
+        <img src="images/logo.svg" alt="${navbarLogoAltText}" class="logo">
+      </a>
+      <div class="navbar-n" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">${navbarLinksText.about}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">${navbarLinksText.careers}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">${navbarLinksText.events}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">${navbarLinksText.products}</a>
+          </li>
+          <li class="nav-item" href="#">
+            <a class="nav-link">${navbarLinksText.support}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="nav-slogan">
+      <h1>${navbarSloganText}</h1>
+    </div>
+  </nav>
+
+  <section class="vr-content">
+    <div class="vr-img">
+      <img src="images/desktop/image-interactive.jpg" alt="interactive">
+    </div>
+    <div class="vr-cont">
+      <h1>${vrContentTitle}</h1>
+      <p>${vrContentParagraph}</p>
+    </div>
+  </section>
+  
+  <div class="creations">
+    <h1>${creationsTitle}</h1>
+    <a href="#" class="btn">${creationsButton}</a>
+  </div>
+
+
+  <section class="gal-sec">
+    
+    <div class="gallery">
+      <a target="_blank" href="images/desktop/image-deep-earth.jpg">
+        <img src="images/desktop/image-deep-earth.jpg" alt="deep-earth" >
+        <div class="overlay">DEEP <br> EARTH</div>
+      </a>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="images/desktop/image-night-arcade.jpg">
+        <img src="images/desktop/image-night-arcade.jpg" alt="night-arcade" >
+        <div class="overlay">NIGHT <br> ARCADE</div>
+      </a>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="images/desktop/image-soccer-team.jpg">
+        <img src="images/desktop/image-soccer-team.jpg" alt="soccer-team">
+        <div class="overlay">SOCCER <br> TEAM</div>
+      </a>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="images/desktop/image-grid.jpg">
+        <img src="images/desktop/image-grid.jpg" alt="grid">
+        <div class="overlay">GRID</div>
+      </a>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="images/desktop/image-from-above.jpg">
+        <img src="images/desktop/image-from-above.jpg" alt="from-above">
+        <div class="overlay">FROM <br> ABOVE</div>
+      </a>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="images/desktop/image-pocket-borealis.jpg">
+        <img src="images/desktop/image-pocket-borealis.jpg" alt="pocket-borealis">
+        <div class="overlay">POCKET BOREALIS</div>
+      </a>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="images/desktop/image-curiosity.jpg">
+        <img src="images/desktop/image-curiosity.jpg" alt="curiosity">
+        <div class="overlay">CURIOSITY</div>
+      </a>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="images/desktop/image-fisheye.jpg">
+        <img src="images/desktop/image-fisheye.jpg" alt="fisheye">
+        <div class="overlay">FISHEYE</div>
+      </a>
+    </div>
+    
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="images/logo.svg" alt="${footerLogoAltText}">
+        <ul class="footer-nav">
+          <li><a href="#">${footerNavLinksText.about}</a></li>
+          <li><a href="#">${footerNavLinksText.careers}</a></li>
+          <li><a href="#">${footerNavLinksText.events}</a></li>
+          <li><a href="#">${footerNavLinksText.products}</a></li>
+          <li><a href="#">${footerNavLinksText.support}</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <img src="images/icon-facebook.svg" alt="${footerSocialIconsAltText.facebook}">
+        <img src="images/icon-twitter.svg" alt="${footerSocialIconsAltText.twitter}">
+        <img src="images/icon-pinterest.svg" alt="${footerSocialIconsAltText.pinterest}">
+        <img src="images/icon-instagram.svg" alt="${footerSocialIconsAltText.instagram}">
+      </div>
+    </div>
+    <div class="copyright">
+      ${footerCopyrightText}
+    </div>
+
+  </footer>
+  
+
+  <div class="attribution">
+    Bootcamp 2023 by
+    <a href="https://www.mlab.co.za" target="_blank">CodeTribe</a>. Developed
+    by <a href="#">Comfort Ngwenya Repo</a>.
+  </div>
+
+  <script src="landing_page.js"></script>
+</body>
+</html>
+
+<!-- Source Frontend Mentor: https://www.frontendmentor.io -->
+

@@ -1,0 +1,197 @@
+body {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+h1, h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+@media (min-width: 1440px) {
+}
+
+.navbar {
+    background-image: url('images/desktop/image-hero.jpg');
+    height: 300PX;
+    width: 100%;
+}
+
+.logo {
+    height: 60%;
+    width: 70%;
+   
+}
+
+.navbar-container, .navbar-n {
+    display: flex;
+   
+
+}
+
+.navbar-nav, a{
+    text-decoration: none;
+    gap: 2rem;
+    list-style: none;
+    font-size: small;
+    color: white;
+    margin-top: 20px;
+    
+ }
+
+
+.navbar-n{
+    text-align: right;
+}
+
+.navbar-nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end; 
+    gap: 2rem;
+    list-style: none;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 500px;
+
+}
+
+.navbar-container{
+    margin: 50px;
+    
+}
+
+.nav-slogan{
+    color: white;
+    border-style: solid;
+    width:300px;
+    height: 120px;
+    margin: 50px;
+    padding-left: 2%;
+
+}
+
+.vr-img{
+    position: relative;
+    height: 500px;
+    margin: 50px;
+}
+
+
+.vr-cont  {
+    position: absolute;
+    background: white;
+    width: 50%;
+    height: 41%;
+    right: 100px;
+    bottom: -21.2%;
+    text-align: center;
+}
+
+.vr-cont, h1{
+    font-size: x-large;
+}
+
+
+.creations{
+    margin: 50px;
+    display: flex;
+
+
+}
+
+.btn {
+    margin-left: 1050px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+    cursor: pointer;
+}
+
+.gal-sec {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gallery {
+    position: relative;
+
+    flex: 0 0 calc(25% - 10px);
+    margin-bottom: 20px; 
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 8px;
+    margin-bottom: 28px;
+    font-size: 27px;
+  }
+
+
+  .footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-left img {
+    height: 20px; 
+    margin-right: 10px; 
+  }
+  
+  .footer-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-nav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .footer-right img {
+    height: 10px; 
+    margin-left: 10px;
+  }
+  
+  .copyright {
+    margin-top: 10px;  
+    text-align: right;
+    font-size: small;
+    margin: 60px;
+}
+  
+  
