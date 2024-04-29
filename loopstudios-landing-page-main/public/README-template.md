@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ComfortN/codeTribe-BootCamp/tree/main/loopstudios-landing-page-main)
 - Live Site URL: [Add live site URL here](https://loopstudios-ba514.firebaseapp.com/)
 
 ## My process
